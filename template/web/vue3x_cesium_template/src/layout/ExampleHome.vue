@@ -1,9 +1,9 @@
 <!--
- * @FilePath: \vue3x_cesium_template\src\layout\ExampleHome.vue
+ * @FilePath: \ququ-cli\template\web\vue3x_cesium_template\src\layout\ExampleHome.vue
  * @Author: abc-0886kAX-code
  * @Date: 2023-04-12 13:14:28
- * @LastEditors: abc-0886kAX-code
- * @LastEditTime: 2024-06-01 14:26:47
+ * @LastEditors: zhangxin
+ * @LastEditTime: 2024-07-19 16:37:58
  * @Description:
 -->
 <script setup>
@@ -42,14 +42,6 @@ const featurelist = {
     },
     'ExampleMask': {
         label: 'Cesium示例-遮罩层',
-        func: jumpToPage
-    },
-    'ExampleModel': {
-        label: 'Cesium示例-模型',
-        func: jumpToPage
-    },
-    'ExampleTilesetModel': {
-        label: 'Cesium示例-供水厂模型',
         func: jumpToPage
     },
     'ExampleWaterUpraise': {

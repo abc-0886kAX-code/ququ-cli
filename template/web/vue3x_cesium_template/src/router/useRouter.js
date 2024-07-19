@@ -1,9 +1,9 @@
 /*
- * @FilePath: \vue3x_cesium_template\src\router\useRouter.js
+ * @FilePath: \ququ-cli\template\web\vue3x_cesium_template\src\router\useRouter.js
  * @Author: abc-0886kAX-code
  * @Date: 2022-11-30 10:18:11
- * @LastEditors: abc-0886kAX-code
- * @LastEditTime: 2024-06-01 14:25:56
+ * @LastEditors: zhangxin
+ * @LastEditTime: 2024-07-19 16:33:49
  * @Description:
  */
 import { defineRouter } from "./defineRouter";
@@ -87,24 +87,6 @@ export const routes = [
                     "hidden": "true"
                 },
                 "component": () => import("@/pages/Example/ExampleMask/ExampleMask.vue")
-            },
-            {
-                "path": "/Example/ExampleModel",
-                "name": "ExampleModel",
-                "meta": {
-                    "title": "Cesium示例-模型",
-                    "hidden": "true"
-                },
-                "component": () => import("@/pages/Example/ExampleModel/ExampleModel.vue")
-            },
-            {
-                "path": "/Example/ExampleTilesetModel",
-                "name": "ExampleTilesetModel",
-                "meta": {
-                    "title": "Cesium示例-供水厂模型",
-                    "hidden": "true"
-                },
-                "component": () => import("@/pages/Example/ExampleTilesetModel/ExampleTilesetModel.vue")
             },
             {
                 "path": "/Example/ExampleWaterUpraise",

@@ -1,6 +1,6 @@
 {
   "name": "ququ-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy to download vue templates",
   "main": "index.js",
   "scripts": {
