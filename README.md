@@ -10,13 +10,15 @@
 
 ## introduce
 > ququ-cli introduce
-``
+
+<code>
 * command
 * npm install ququ-cli
 * ququ-cli creare <appName>
 * tip select
-``
-``
+</code>
+
+<code>
 * update
 * npm publish <dist>
-``
+</code>
