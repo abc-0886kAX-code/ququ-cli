@@ -9,7 +9,7 @@
 <script setup></script>
 
 <template>
-    <div>debug</div>
+  <div>debug</div>
 </template>
 
 <style scoped lang="scss">

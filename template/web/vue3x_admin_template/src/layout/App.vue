@@ -7,21 +7,21 @@
  * @Description:
 -->
 <script setup>
-import MainLayout from "@/layout/main-layout";
-import Popup from "@/layout/Popup.vue";
-import ProgressMask from "@/components/ProgressMask.vue";
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
+import MainLayout from '@/layout/main-layout'
+import Popup from '@/layout/Popup.vue'
+import ProgressMask from '@/components/ProgressMask.vue'
 </script>
 
 <template>
-    <div id="app">
-        <ElConfigProvider :locale="zhCn">
-            <ProgressMask></ProgressMask>
-            <Popup>
-                <MainLayout></MainLayout>
-            </Popup>
-        </ElConfigProvider>
-    </div>
+  <div id="app">
+    <ElConfigProvider :locale="zhCn">
+      <ProgressMask />
+      <Popup>
+        <MainLayout />
+      </Popup>
+    </ElConfigProvider>
+  </div>
 </template>
 
 <style scoped lang="scss">

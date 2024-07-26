@@ -6,4 +6,4 @@
  * @LastEditTime: 2023-04-12 11:13:26
  * @Description:
  */
-export const EXPIRATION_TIME = 300; // 天气静态存储的过期时间/单位分钟
+export const EXPIRATION_TIME = 300 // 天气静态存储的过期时间/单位分钟

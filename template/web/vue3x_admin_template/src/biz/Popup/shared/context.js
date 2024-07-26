@@ -4,6 +4,6 @@
  * @Date: 2022-12-05 14:10:46
  * @LastEditors: maggot-code
  * @LastEditTime: 2023-01-03 17:09:05
- * @Description: 
+ * @Description:
  */
-export const POPUP_SYMBOLE = Symbol('furnace-popup');
+export const POPUP_SYMBOLE = Symbol('furnace-popup')

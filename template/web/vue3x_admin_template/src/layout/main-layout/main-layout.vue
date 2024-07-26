@@ -10,11 +10,11 @@
 </script>
 
 <template>
-    <RouterView v-slot="{ Component }">
-        <transition name="el-fade-in-linear">
-            <component :is="Component" />
-        </transition>
-    </RouterView>
+  <RouterView v-slot="{ Component }">
+    <transition name="el-fade-in-linear">
+      <component :is="Component" />
+    </transition>
+  </RouterView>
 </template>
 
 <style scoped lang='scss'>
