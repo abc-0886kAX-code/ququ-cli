@@ -1,9 +1,9 @@
 <!--
- * @FilePath: \vue2.7_admin_template-master\src\layout\Popup.vue
+ * @FilePath: \ququ-cli\template\web\vue3x_admin_template\src\layout\Popup.vue
  * @Author: maggot-code
  * @Date: 2023-01-03 16:58:44
- * @LastEditors: zhangxin
- * @LastEditTime: 2023-11-16 16:05:15
+ * @LastEditors: abc-0886kAX-code
+ * @LastEditTime: 2024-08-07 16:48:23
  * @Description:
 -->
 <script setup>
@@ -16,7 +16,7 @@ const { pond, pondFind, pondRelease } = definePopup()
   <div class="furnace-popup">
     <template v-for="key in pond" :key="key">
       <el-dialog
-        :before-close="pondRelease(key)" :visible="pondFind(key).visible.value"
+        :before-close="pondRelease(key)"  :model-value="pondFind(key).visible.value" :visible="pondFind(key).visible.value"
         :title="pondFind(key).title.value" :width="pondFind(key).width.value" :top="pondFind(key).top.value"
         v-bind="pondFind(key).constProps"
       >
